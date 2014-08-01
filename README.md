@@ -40,9 +40,9 @@ Put in your controller,
     $this->load->library('twig'); // or you can load in the file config/autoload.php
     $data['title'] = "Testing Twig!!";
     
-    ## the first parameter you pass the name of your template, do not need to use the extension
-    ## the second parameter you can pass the name of the view to use, is optional
-    ## the third will be an array of variables that use the view and template
+    // the first parameter you pass the name of your template, do not need to use the extension
+    // the second parameter you can pass the name of the view to use, is optional
+    // the third will be an array of variables that use the view and template
     $this->twig->display('template', 'view', $data);
     
 ## CodeIgniter helper functions
